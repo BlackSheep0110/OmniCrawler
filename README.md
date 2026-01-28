@@ -1,44 +1,64 @@
-OmniCrawler 🕷️
+🕷️ OmniCrawler
 
-OmniCrawler is a robust, modular, and general-purpose web scraping framework designed to build datasets from the web. Whether you are researching AI, Real Estate, Finance, or Medical data, OmniCrawler helps you discover relevant domains and bulk-download articles.
+A High-Performance, Fault-Tolerant, and Topic-Agnostic Web Scraping Framework. > Developed by: Ahmad Salami Far
 
-Developed by: Ahmad Salami Far
+📖 Overview
 
-It operates in an Auto-Pilot mode:
+OmniCrawler is a robust web scraping engine designed to build large-scale datasets from the web effortlessly. Unlike traditional scrapers bound to specific websites, OmniCrawler is general-purpose. It takes raw files containing mixed links, discovers relevant content based on your keywords, and automatically downloads clean, text-based articles.
 
-Discovery: Scans ANY input file (Text, Word, Logs, etc.) for links, filters relevant domains, and maps articles.
+Whether you are gathering data for AI Training (NLP), Market Research, or Academic Analysis, OmniCrawler automates the entire pipeline.
 
-Extraction: Automatically switches to multithreaded downloading of clean text content.
+📖 معرفی پروژه
 
-OmniCrawler (خزشگر هوشمند وب)
+OmniCrawler (آمنی‌کراولر) یک موتور خزشگر وب قدرتمند است که برای ساخت مجموعه داده‌های بزرگ (Datasets) طراحی شده است. برخلاف ربات‌های سنتی که محدود به سایت‌های خاصی هستند، این ابزار عمومی است. این برنامه فایل‌های ورودی شما را (که حاوی لینک‌های درهم هستند) می‌خواند، محتوای مرتبط با کلمات کلیدی شما را کشف می‌کند و مقالات تمیز و متنی را دانلود می‌کند.
 
-OmniCrawler یک فریم‌ورک متن‌باز و قدرتمند برای استخراج داده از وب است. این ابزار به هیچ موضوع خاصی محدود نیست و توسط احمد سلامی‌فر توسعه یافته است.
+این ابزار برای آموزش هوش مصنوعی (NLP)، تحقیقات بازار و تحلیل‌های دانشگاهی ایده‌آل است.
 
 ✨ Key Features / ویژگی‌های کلیدی
 
-🔄 Auto-Pilot Mode: Automatically runs discovery and then switches to download mode without user intervention.
+🔄 Auto-Pilot Mode (حالت خلبان خودکار)
 
-حالت خلبان خودکار: اجرای پشت‌سرهم فاز کشف و دانلود بدون نیاز به دخالت کاربر.
+It runs in a dual-phase cycle automatically:
 
-💾 Smart Resume & Checkpoint: Saves found links instantly. If the internet cuts off or the app crashes, you can resume exactly where you left off.
+Discovery Phase: Scans inputs, filters domains, and finds article links.
 
-ذخیره لحظه‌ای و قابلیت ادامه: لینک‌ها بلافاصله ذخیره می‌شوند. اگر برق برود یا برنامه بسته شود، در اجرای بعدی از همان‌جا ادامه می‌دهد.
+Download Phase: Switches to multi-threaded downloading without user intervention.
 
-📂 Universal Input Reader: Extracts links from dirty/messy text files, logs, code, or Word documents (.docx).
+برنامه به صورت خودکار بین فاز "کشف لینک" و "دانلود محتوا" سوییچ می‌کند و نیاز به نظارت کاربر ندارد.
 
-ورودی نامحدود: استخراج لینک از فایل‌های متنی شلوغ، فایل‌های ورد و لاگ‌های سیستم با استفاده از الگوریتم‌های هوشمند پاکسازی.
+💾 Smart Resume Capability (قابلیت ادامه دانلود)
 
-📝 File Logging: Keeps a detailed history of operations in scraper_report.log.
+Crashes or internet cuts? No problem. OmniCrawler saves the queue (download_queue.txt) in real-time. When you restart, it resumes exactly where it left off.
 
-گزارش‌گیری فایل: ثبت دقیق تمام وقایع و خطاها در فایل لاگ برای بررسی‌های بعدی.
+در صورت قطع برق یا اینترنت، لینک‌های پیدا شده از دست نمی‌روند. برنامه در اجرای بعدی دقیقاً از همان‌جایی که متوقف شده بود ادامه می‌دهد.
 
-Topic Agnostic: Fully customizable via config.py.
+📂 Universal Input Parser (ورودی هوشمند و نامحدود)
 
-بدون محدودیت موضوع: تنها با تغییر کلمات کلیدی، هدف ربات را مشخص کنید (مثلاً  هوش مصنوعی، بورس).
+Just drop any file into the folder. OmniCrawler extracts links from:
+
+📜 Text files (.txt, logs)
+
+📄 Word Documents (.docx)
+
+💻 Code files (.py, .js, etc.)
+
+فایل‌های خود را درون پوشه بریزید. برنامه لینک‌ها را از دل متن‌های شلوغ، فایل‌های ورد و حتی کدهای برنامه استخراج می‌کند.
+
+🎯 Smart Filtering & Cleaning (فیلترینگ و تمیزسازی هوشمند)
+
+Strict Mode: Downloads only pages matching your specific keywords.
+
+Content Cleaning: Removes ads, navigation bars, scripts, and footer noise.
+
+Blacklist: Automatically skips social media and irrelevant sites (YouTube, Instagram, etc.).
+
+حذف تبلیغات، منوها و اسکریپت‌ها برای دریافت متن خالص. همچنین سایت‌های نامرتبط (مثل اینستاگرام و یوتیوب) به صورت خودکار نادیده گرفته می‌شوند.
 
 🚀 Quick Start / شروع سریع
 
 1. Installation (نصب)
+
+Clone the repository and install dependencies:
 
 git clone [https://github.com/ahmadsalamifar/OmniCrawler.git](https://github.com/ahmadsalamifar/OmniCrawler.git)
 cd OmniCrawler
@@ -47,46 +67,74 @@ pip install -r requirements.txt
 
 2. Configuration (تنظیمات)
 
-Open config.py and set TARGET_KEYWORDS.
-فایل config.py را باز کنید و کلمات کلیدی هدف خود را بنویسید (مثلاً "کانکس"، "هوش مصنوعی").
+Open config.py to customize your target.
+فایل config.py را باز کنید و تنظیمات را تغییر دهید.
+
+# config.py
+
+# 1. Define what you are looking for (کلمات کلیدی هدف)
+TARGET_KEYWORDS = ["Artificial Intelligence", "Neural Networks", "هوش مصنوعی"]
+
+# 2. Set Mode (Strict Mode = True means stricter filtering)
+STRICT_MODE = True 
+
+# 3. Performance Settings
+MAX_WORKERS = 5  # Number of simultaneous downloads
+
 
 3. Usage (نحوه اجرا)
 
-Just drop your input files (files containing links) into the folder and run:
-فایل‌های حاوی لینک (هر فایلی با هر پسوندی) را در پوشه بریزید و فقط دستور زیر را اجرا کنید:
+Option A: Auto Mode (Recommended)
+Simply place your files (containing links) in the project folder and run:
+فایل‌های حاوی لینک را در پوشه پروژه قرار دهید و دستور زیر را اجرا کنید:
 
 python main.py
 
 
-The script will find links, filter them, save the queue, and automatically start downloading.
+Option B: Manual Control
+You can run specific phases individually:
 
-برنامه لینک‌ها را پیدا می‌کند، فیلتر می‌کند و به صورت خودکار دانلود را شروع می‌کند.
-
-Manual Modes (حالت‌های دستی - اختیاری)
-
-If you want to run specific phases manually:
-اگر می‌خواهید فازها را جداگانه اجرا کنید:
-
-Only Find Links (فقط جستجو):
+Discovery Only: Find links but do not download yet.
 
 python main.py --mode discovery
 
 
-Only Download (فقط دانلود از لیست آماده):
+Download Only: Download from an existing download_queue.txt.
 
 python main.py --mode download
 
 
 📂 Project Structure / ساختار پروژه
 
-config.py: Settings (Keywords, threads, timeouts).
+OmniCrawler/
+│
+├── 📂 Scraped_Data/        # Output Folder (Where files are saved)
+│   └── 📂 Articles/        # Cleaned text files (.txt)
+│
+├── 📜 config.py            # User Settings (Keywords, Blacklist, Threads)
+├── 📜 main.py              # Entry Point (Auto-Switching Logic)
+├── 📜 crawler.py           # Logic for finding & validating links
+├── 📜 downloader.py        # Logic for downloading & cleaning HTML
+├── 📜 utils.py             # Helpers (File reading, normalization)
+├── 📜 download_queue.txt   # Database of found links (Auto-generated)
+├── 📜 scraper_report.log   # Detailed execution logs
+└── 📜 requirements.txt     # Python dependencies
 
-main.py: The brain of the scraper (Auto-switching logic).
 
-scraper_report.log: Detailed logs of what happened.
+⚠️ Disclaimer
 
-download_queue.txt: The queue of found links (Auto-saved).
+This tool is designed for educational and research purposes.
 
-Scraped_Data/: Where downloaded articles are saved.
+Please respect robots.txt policies of websites.
 
-Note: Built for educational purposes. Please respect robots.txt.
+Do not use this tool to overload servers (DDoS) or scrape copyrighted personal data without permission.
+
+The author is not responsible for misuse of this software.
+
+این ابزار صرفاً برای اهداف آموزشی و تحقیقاتی طراحی شده است. لطفاً از آن برای فشار آوردن به سرورها یا استخراج غیرقانونی اطلاعات استفاده نکنید.
+
+<div align="center">
+
+Made with 💻 and ☕ by Ahmad Salami Far
+
+</div>
